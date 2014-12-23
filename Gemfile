@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 ruby '2.1.5'
-gem 'rails', '4.1.7'
+gem 'rails', '4.2.0'
 
 # Rails defaults
 gem 'sqlite3'
@@ -11,16 +11,14 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
+gem 'spring', group: :development
 
 # learn-rails
-gem 'activerecord-tableless'
-gem 'compass-rails', '~> 2.0.alpha.0'
-gem 'figaro'
+gem 'foundation-rails'
 gem 'gibbon'
 gem 'google_drive'
 gem 'high_voltage'
 gem 'simple_form'
-gem 'zurb-foundation'
 
 group :development do
   gem 'better_errors'
@@ -31,6 +29,5 @@ end
 group :development, :test do
   gem 'byebug'
   gem 'web-console', '~> 2.0'
-  gem 'spring'
 end
 
