@@ -15,6 +15,7 @@ gem 'spring', group: :development
 
 # learn-rails
 gem 'foundation-rails'
+gem 'mailchimp-api', require: 'mailchimp'
 gem 'gibbon'
 gem 'google_drive'
 gem 'high_voltage'
